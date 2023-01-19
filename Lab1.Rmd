@@ -8,3 +8,15 @@ output: github_document
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# Sequence
+
+```{r}
+z1 = 1:100
+
+z2 = seq(0, 100, by = 5)
+
+z1[36]
+
+z2[13]
+```
